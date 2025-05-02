@@ -62,9 +62,10 @@ class GameBoard {
 }
 
 @Component({
-  selector: 'app-tictactoe',
-  templateUrl: './tictactoe.component.html',
-  styleUrls: ['./tictactoe.component.scss']
+    selector: 'app-tictactoe',
+    templateUrl: './tictactoe.component.html',
+    styleUrls: ['./tictactoe.component.scss'],
+    standalone: false
 })
 export class TictactoeComponent {
   board = new GameBoard;
